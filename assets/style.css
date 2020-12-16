@@ -1,0 +1,56 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    background-color: #f8f9fa;
+}
+
+.nav-item {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Jaldi', sans-serif;
+}
+
+.nav-ml-left {
+  justify-content: flex-end;
+}
+
+h5 {
+    color:white;
+    text-shadow: yellow;
+}
+
+.img-fluid {
+    position: relative;
+    max-width: 100%;
+    max-height: auto;
+}
+
+.row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.maintext {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.containerhero {
+    position: relative;
+}
+
+.fixedtext {
+    font-size: 60px;
+    position: absolute;
+    margin-left: 30px;
+    bottom: 50%;
+    color: white;
+    z-index: 1;
+    width: 400px;
+}
+
+
+
+
