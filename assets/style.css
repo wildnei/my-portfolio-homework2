@@ -7,7 +7,17 @@ body {
     background-color: #f8f9fa;
 }
 
+.card-text {
+    font-size: 18px;
+}
 
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+}
 
 .nav-item {
     font-size: 20px;
@@ -71,13 +81,28 @@ h5 {
     width: 400px;
 }
 
-.footertext {
-    text-align: center;
-}
-
-footer {
+.footer-edit {
     margin-top: 50px;
     margin-bottom: 100px;
 }
 
+.contacttext {
+    text-align: center;
+}
 
+.trademark {
+    text-align: center;
+    color: white;
+}
+
+/* !This CSS stick the footer to the bottom */
+
+.footer-stick {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #212529;
+    padding-top: 20px;
+}
