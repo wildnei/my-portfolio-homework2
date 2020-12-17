@@ -1,17 +1,14 @@
+
 body {
     background-color: #f8f9fa;
     font-family: 'Jaldi', sans-serif;
-}
-
-.container {
-    background-color: #f8f9fa;
 }
 
 .card-text {
     font-size: 18px;
 }
 
-
+/*! Content linked to the navbar */
 
 .navbar {
     position: fixed;
@@ -23,12 +20,19 @@ body {
 
 .nav-item {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
     font-family: 'Jaldi', sans-serif;
 }
 
+.nav-ml-left {
+  justify-content: flex-end;
+}
+
+
+/*! This gives margin to the jumbotron */
+
 .display-4 {
-    margin-top: 100px;
+    margin-top: 130px;
     text-align: center;
 }
 
@@ -39,49 +43,26 @@ body {
     display: block;
 }
 
+/*! This gives margin to the jumbotron */
+
 .lead {
     margin-top: 20px;
     text-align: center;
 }
 
-.nav-ml-left {
-  justify-content: flex-end;
-}
+/* ---- */
 
-h5 {
-    color:white;
-    text-shadow: yellow;
-}
-
-.img-fluid {
-    position: relative;
-    max-width: 100%;
-    max-height: auto;
-}
 
 .row {
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.maintext {
+.section2text {
     text-align: center;
     padding-top: 20px;
 }
 
-.containerhero {
-    position: relative;
-}
-
-.fixedtext {
-    font-size: 60px;
-    position: absolute;
-    margin-left: 30px;
-    bottom: 50%;
-    color: white;
-    z-index: 1;
-    width: 400px;
-}
 
 .footer-edit {
     margin-top: 50px;
@@ -96,6 +77,11 @@ h5 {
     text-align: center;
     color: white;
 }
+
+
+
+/* This CSS is referencing to contact page */
+
 
 /* !This CSS stick the footer to the bottom */
 
