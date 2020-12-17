@@ -11,6 +11,8 @@ body {
     font-size: 18px;
 }
 
+
+
 .navbar {
     position: fixed;
     top: 0;
@@ -105,4 +107,15 @@ h5 {
     width: 100%;
     background-color: #212529;
     padding-top: 20px;
+}
+
+
+
+/* !The media query is creating space between the cards on mobile version*/
+
+
+@media only screen and (max-width: 767px) {
+  .card {
+    margin-bottom: 20px;
+}
 }
