@@ -1,10 +1,13 @@
 body {
     background-color: #f8f9fa;
+    font-family: 'Jaldi', sans-serif;
 }
 
 .container {
     background-color: #f8f9fa;
 }
+
+
 
 .nav-item {
     font-size: 20px;
@@ -13,6 +16,7 @@ body {
 }
 
 .display-4 {
+    margin-top: 100px;
     text-align: center;
 }
 
@@ -21,6 +25,11 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+.lead {
+    margin-top: 20px;
+    text-align: center;
 }
 
 .nav-ml-left {
@@ -62,6 +71,13 @@ h5 {
     width: 400px;
 }
 
+.footertext {
+    text-align: center;
+}
 
+footer {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
 
 
