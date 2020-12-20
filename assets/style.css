@@ -4,6 +4,10 @@ body {
     font-family: 'Jaldi', sans-serif;
 }
 
+.card-title {
+    font-weight: bold;
+}
+
 .card-text {
     font-size: 18px;
 }
@@ -28,13 +32,19 @@ body {
   justify-content: flex-end;
 }
 
-
+.card-img-top {
+    max-height: auto;
+    max-width: auto;
+    position: ;
+}
 /*! This gives margin to the jumbotron */
 
 .display-4 {
     margin-top: 130px;
     text-align: center;
 }
+
+
 
 .heroimg {
     height: 20vh;
