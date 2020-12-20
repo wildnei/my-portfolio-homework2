@@ -45,8 +45,6 @@ body {
     text-align: center;
 }
 
-
-
 .heroimg {
     border-radius: 50%;
     max-height: 30vh;
@@ -55,8 +53,6 @@ body {
     margin-right: auto;
     display: block;
 }
-
-/*! This gives margin to the jumbotron */
 
 .lead {
     margin-top: 20px;

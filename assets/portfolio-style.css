@@ -1,3 +1,9 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Jaldi', sans-serif;
+}
+
+
 /*! Content linked to the navbar */
 
 .navbar {
