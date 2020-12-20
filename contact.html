@@ -10,13 +10,16 @@
     <!--! Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/contact-style.css">
 
     <!-- !google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap" rel="stylesheet">
 
     <title>Will Portfolio</title>
+
+
+    
 
 </head>
 
@@ -52,40 +55,57 @@
    
 
         <!-- !This section bellow is the forms-->
-        <h1 class="portfolioContact">
-            Contact-me
-        </h1>
+     
+        <!-- Form copied from the website: http://reusableforms.com/d/o5/html5-contact-form-send-email -->
 
-        <section id="formsContact">
-            <div class="footer-edit">
-                <row>
-                    <div class="container col-md-4">
-                        <form>
-                            <h1 class="contacttext">Contact-me</h1>
+   
+        
 
-                            <div class="form-group">
-                                <label for="InputEmail1">Name*</label>
-                                <input type="text" class="form-control" placeholder="First name">
-                                <label for="InputEmail1">Email address*</label>
-                                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp"
-                                    placeholder="Enter email">
+        <div class="container form-top">
+            <h1 class="title-cards"> Contact-me</h1>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-danger">
+                        <div class="panel-body">
+                            <form id="reused_form">
+                                <div class="form-group">
+                                    <label><i class="fa fa-user" aria-hidden="true"></i> Name</label>
+                                    <input type="text" name="name" class="form-control" placeholder="Enter Name">
+                                </div>
+                                <div class="form-group">
+                                    <label><i class="fa fa-envelope" aria-hidden="true"></i> Email</label>
+                                    <input type="email" name="email" class="form-control" placeholder="Enter Email">
+                                </div>
+                                <div class="form-group">
+                                    <label><i class="fa fa-comment" aria-hidden="true"></i> Message</label>
+                                    <textarea rows="3" name="message" class="form-control"
+                                        placeholder="Type Your Message"></textarea>
+                                </div>
+        
+        
+                                <div class="form-group">
+                                    <br>
+                                    <button class="btn btn-raised btn-block btn-secondary">Send →</button>
+                                </div>
+                            </form>
+                            <div id="error_message" style="width:100%; height:100%; display:none; ">
+                                <h4>Error</h4>
+                                Sorry there was an error sending your form.
                             </div>
-
-                            <div class="form-group">
-                                <label for="FormControlTextarea1">Message*</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <div id="success_message" style="width:100%; height:100%; display:none; ">
+                                <h2>Success! Your Message was Sent Successfully.</h2>
                             </div>
-
-                            <small id="emailHelp" class="form-text text-muted">*Mandatory field</small>
-                        </form>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
                     </div>
+                </div>
             </div>
-            </row>
-    </div>
-    </section>
+        </div>
 
-    <!-- !This section bellow is the footer -->
+        
+        
+
+        
+<!-- !This section bellow is the footer -->
 
     <footer class="footer-stick">
         <row>
@@ -100,7 +120,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
-
 
 
 </body>

@@ -37,6 +37,7 @@ body {
     max-width: auto;
     position: ;
 }
+
 /*! This gives margin to the jumbotron */
 
 .display-4 {
@@ -47,7 +48,9 @@ body {
 
 
 .heroimg {
-    height: 20vh;
+    border-radius: 50%;
+    max-height: 30vh;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -60,8 +63,12 @@ body {
     text-align: center;
 }
 
-/* ---- */
+/* !Bellow are the CSS related to cards */
 
+
+#cards {
+    margin-bottom: 200px;
+}
 
 .row {
     padding-top: 20px;
@@ -72,25 +79,6 @@ body {
     text-align: center;
     padding-top: 20px;
 }
-
-
-.footer-edit {
-    margin-top: 50px;
-    margin-bottom: 100px;
-}
-
-.contacttext {
-    text-align: center;
-}
-
-.trademark {
-    text-align: center;
-    color: white;
-}
-
-
-
-/* This CSS is referencing to contact page */
 
 
 /* !This CSS stick the footer to the bottom */
@@ -105,6 +93,10 @@ body {
     padding-top: 20px;
 }
 
+.trademark {
+    text-align: center;
+    color: white;
+}
 
 
 /* !The media query is creating space between the cards on mobile version*/
@@ -114,4 +106,17 @@ body {
   .card {
     margin-bottom: 20px;
 }
+}
+
+/* !The media query is decreasing the size of the hero-img*/
+
+@media only screen and (max-width: 480px) {
+  .heroimg {
+    border-radius: 50%;
+    max-height: 20vh;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
 }
